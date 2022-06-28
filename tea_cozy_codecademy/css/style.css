@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+   
+}
+
+header {
+    max-height: 69px;
+    position: fixed;    
+    top: 0;
+    background-color: black;
+    width: 100%;
+    border-bottom: 1px solid seashell;  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.brand-logo {
+    height: 50px;
+    padding: 10px;
+    display: inline-flex;
+}
+
+nav {
+    margin-left: auto;
+}
+
+ul {
+    list-style-type: none;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+li {
+    display: inline-flex;
+    padding: 10px;
+}
+
+a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+.mission-section {
+    background-image: url("../img/img-mission-background.jpg");
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    width: 1200px;
+    margin-bottom: 50px;
+    
+
+    
+}
+.mission-black-box {
+    text-align: center;
+    background-color: black;
+}
+
+.tea-of-month-section {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 1000px;
+
+}
+
+.tea-black-box {
+    text-align: center;
+}
+
+.image-container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.image-container img {
+    width: 300px;
+    height: 200px;
+}
+
+figcaption {
+    text-align: center;
+    display: block;
+    font-size: 1em;
+    font-weight: bold
+}
+
+.location-section {
+    background-image: url("../img/img-locations-background.jpg");
+    background-size: cover;
+    width: 1200px;  
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location-section h2 {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.location-boxes {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.location {
+    background-color: black;
+    text-align: center;
+    opacity: 1;
+    font-size: 1em;
+    margin: 15px 20px;
+    width: 300px;
+}
+
+.contact-section {
+    height:200px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-section h5 {
+    text-align: left;
+}
